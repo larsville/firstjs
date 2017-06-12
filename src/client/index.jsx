@@ -1,5 +1,8 @@
 // @flow
 
+import Tether from 'tether'
+
+import $ from 'jquery'
 import 'babel-polyfill'
 
 import Immutable from 'immutable'
@@ -16,9 +19,6 @@ import helloReducer from '../shared/reducer/hello'
 import { APP_CONTAINER_SELECTOR, JSS_SSR_SELECTOR } from '../shared/config'
 import { isProd } from '../shared/util'
 import setUpSocket from './socket'
-
-import $ from 'jquery'
-import Tether from 'Tether'
 
 window.jQuery = $
 window.Tether = Tether

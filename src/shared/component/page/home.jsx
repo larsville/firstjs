@@ -3,10 +3,10 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
+import injectSheet from 'react-jss'
+
 import ModalExample from '../modal-example'
 import { APP_NAME } from '../../config'
-
-import injectSheet from 'react-jss'
 
 const styles = {
   hoverMe: {

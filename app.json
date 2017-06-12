@@ -1,0 +1,19 @@
+{
+  "name": "firstjs",
+  "description": "Enables tutorial to auto-deploy on Heroic",
+  "scripts": {
+  },
+  "env": {
+    "NPM_CONFIG_PRODUCTION": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}

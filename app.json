@@ -1,5 +1,19 @@
 {
+  "name": "firstjs",
+  "description": "Enables tutorial to auto-deploy on Heroku",
+  "scripts": {
+  },
   "env": {
-    "NPM_CONFIG_PRODUCTION": "false"
-  }
+    "NPM_CONFIG_PRODUCTION": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
 }
